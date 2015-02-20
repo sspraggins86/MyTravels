@@ -1,0 +1,37 @@
+// Place all the styles related to the sessions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#title {
+	font-family: Lucida Handwriting;
+	font-size: 50px;
+	text-align: center;	
+	margin-top: 3%;
+
+}
+
+
+/*@import "bootstrap-sprockets";
+@import "bootstrap";*/
+
+
+#container {
+	border: 1px solid white;
+	height: 450px;
+	width: 600px;
+	margin: 0 auto;
+	position: relative;
+
+}
+
+#signup {
+    float: left;
+    margin-top: 15%;
+    margin: 5%;
+}
+
+#login {
+	float: right;
+	margin-top: 15%;
+	margin: 5%;
+}

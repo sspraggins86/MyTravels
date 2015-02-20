@@ -1,0 +1,39 @@
+
+<h1 id="title">My Travels</h1>
+
+<div id="container">
+<div id="signup">
+<!-- puts sign up page on same page as logging in!! -->
+<h1>Sign Up:</h1>
+<%= form_for @user, url:{controller: "users", action: "create"} do |f| %>
+	 
+   <div class="field"> 
+    <%= f.file_field :avatar %>
+    <%= f.label :first_name %><br>
+    <%= f.text_field :first_name %><br>
+    <%= f.label :last_name %><br>
+    <%= f.text_field :last_name %><br>
+  	<%= f.label :email %><br>
+  	<%= f.text_field :email %><br>
+    <%= f.label :password %><br>
+    <%= f.password_field :password %><br>
+    <%= f.label :password_confirmation %><br>
+    <%= f.password_field :password_confirmation %><br>
+    <%= f.submit %>
+  </div>
+
+<% end %>
+</div>
+
+<div id="login">
+<h1>Log in:</h1>
+<%= form_for @user, url:{controller: "sessions", action: "create"} do |f| %>
+  <%= f.label :email %><br />
+  <%= f.text_field :email %><br />
+  <%= f.label :password %><br />
+  <%= f.password_field :password %><br />
+  <%= f.submit "Login"%>
+
+<% end %>
+</div>
+</div>

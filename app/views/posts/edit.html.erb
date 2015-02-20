@@ -1,0 +1,23 @@
+<<h1>Edit my Post!</h1>
+
+<%= form_for(@post) do |f| %>
+<div class="field">
+	<%= f.label :title %><br>
+	<%= f.text_field :title %>
+</div>
+
+<div class="field">
+	<%= f.label :description %><br>
+	<%= f.text_area :description %>
+</div>
+
+<div class="field">
+	<%= f.label :travel_date %><br>
+	<%= f.date_field :travel_date %>
+</div>
+
+<div class="actions">
+	<%= f.submit %>
+</div>
+
+<% end %>  

@@ -1,0 +1,31 @@
+<%= link_to 'My Home', user_path(:id) %>
+<%= link_to 'New Post', new_post_path %>
+<%= link_to "Sign Out", new_session_path(:user), method: :delete %>
+
+
+
+<h1>See my Post!</h1>
+<table>
+  <thread>
+  	<tr>
+  	  <th>Title:</th>
+  	  <th>Descriptions:</th>
+  	  <th>Travel Date:</th>
+  	  <th colspan="3"></th>
+  	</tr>
+  </thread>
+
+  <tbody>
+  	<% @posts.each do |post| %>
+  	  <tr>
+  	    <td><%= post.title %></td>
+  	    <td><%= post.description %></td>
+  	    <td><%= post.travel_date %></td>
+  	    <td><%= link_to 'Show', post %></td>
+  	    <td><%= link_to 'Edit', edit_post_path(post) %></td>
+  	    <td><%= link_to 'Delete', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  	  </tr>
+  	  <% end %>
+  	</tbody>
+</table>
+
