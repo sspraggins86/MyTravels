@@ -6,6 +6,11 @@ body {
 	background-color: #E2FFFF;
 }
 
+#avatar {
+	margin-left: 10px;
+	border-radius: 10px;
+}
+
 #your_page {
 	font-family: Lucida Handwriting;
     text-align: left;
@@ -17,6 +22,7 @@ body {
     1px -1px 0 #000066,
     -1px 1px 0 #000066,
     1px 1px 0 #000066;
+
 }
 
 #links {
@@ -30,6 +36,7 @@ li {
 	display: inline;
     width: 60px;
     margin-left: 60px;
+    margin-bottom: 5px;
 }
 
 #account_info {

@@ -1,0 +1,172 @@
+/* line 6, /Users/sspraggins86/wdi/WDI_LA_14/MyTravels/app/assets/stylesheets/posts.css.scss */
+body {
+  font-family: fantasy;
+  margin: auto;
+  position: relative;
+  position: center;
+}
+
+/* line 14, /Users/sspraggins86/wdi/WDI_LA_14/MyTravels/app/assets/stylesheets/posts.css.scss */
+new_post {
+  margin: auto;
+  position: absolute;
+  position: center;
+}
+
+/* line 20, /Users/sspraggins86/wdi/WDI_LA_14/MyTravels/app/assets/stylesheets/posts.css.scss */
+#my_travels {
+  font-family: Lucida Handwriting;
+  text-align: center;
+  color: white;
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  text-shadow: -1px -1px 0 #000066, 1px -1px 0 #000066, -1px 1px 0 #000066, 1px 1px 0 #000066;
+}
+
+/* line 33, /Users/sspraggins86/wdi/WDI_LA_14/MyTravels/app/assets/stylesheets/posts.css.scss */
+#posts {
+  margin-left: 45%;
+  position: relative;
+}
+
+/* line 38, /Users/sspraggins86/wdi/WDI_LA_14/MyTravels/app/assets/stylesheets/posts.css.scss */
+#new {
+  font-family: Lucida Handwriting;
+  text-align: center;
+  color: white;
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  text-shadow: -1px -1px 0 #000066, 1px -1px 0 #000066, -1px 1px 0 #000066, 1px 1px 0 #000066;
+}
+
+/* line 51, /Users/sspraggins86/wdi/WDI_LA_14/MyTravels/app/assets/stylesheets/posts.css.scss */
+#new_post {
+  margin-left: 45%;
+  margin-right: 55%;
+  position: relative;
+}
+/* line 5, /Users/sspraggins86/wdi/WDI_LA_14/MyTravels/app/assets/stylesheets/sessions.css.scss */
+html, body {
+  background-color: #E2FFFF;
+}
+
+/* line 9, /Users/sspraggins86/wdi/WDI_LA_14/MyTravels/app/assets/stylesheets/sessions.css.scss */
+#title {
+  font-family: Lucida Handwriting;
+  font-size: 50px;
+  margin-top: 3%;
+  color: white;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000066, 1px -1px 0 #000066, -1px 1px 0 #000066, 1px 1px 0 #000066;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #000066;
+}
+
+/* line 26, /Users/sspraggins86/wdi/WDI_LA_14/MyTravels/app/assets/stylesheets/sessions.css.scss */
+#welcome {
+  text-align: center;
+  font-size: 20px;
+  margin: 15px;
+  color: #000066;
+  border-radius: 10px;
+}
+
+/* line 35, /Users/sspraggins86/wdi/WDI_LA_14/MyTravels/app/assets/stylesheets/sessions.css.scss */
+#container {
+  border-radius: 10px;
+  height: 450px;
+  width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 43, /Users/sspraggins86/wdi/WDI_LA_14/MyTravels/app/assets/stylesheets/sessions.css.scss */
+#signup {
+  float: left;
+  margin-top: 15%;
+  margin: 5%;
+  color: #000066;
+}
+
+/* line 50, /Users/sspraggins86/wdi/WDI_LA_14/MyTravels/app/assets/stylesheets/sessions.css.scss */
+#login {
+  float: right;
+  margin-top: 15%;
+  margin: 5%;
+  color: #000066;
+}
+/* line 5, /Users/sspraggins86/wdi/WDI_LA_14/MyTravels/app/assets/stylesheets/users.css.scss */
+body {
+  background-color: #E2FFFF;
+}
+
+/* line 9, /Users/sspraggins86/wdi/WDI_LA_14/MyTravels/app/assets/stylesheets/users.css.scss */
+#avatar {
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+/* line 14, /Users/sspraggins86/wdi/WDI_LA_14/MyTravels/app/assets/stylesheets/users.css.scss */
+#your_page {
+  font-family: Lucida Handwriting;
+  text-align: left;
+  color: white;
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  text-shadow: -1px -1px 0 #000066, 1px -1px 0 #000066, -1px 1px 0 #000066, 1px 1px 0 #000066;
+}
+
+/* line 28, /Users/sspraggins86/wdi/WDI_LA_14/MyTravels/app/assets/stylesheets/users.css.scss */
+#links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 35, /Users/sspraggins86/wdi/WDI_LA_14/MyTravels/app/assets/stylesheets/users.css.scss */
+li {
+  display: inline;
+  width: 60px;
+  margin-left: 60px;
+  margin-bottom: 5px;
+}
+
+/* line 42, /Users/sspraggins86/wdi/WDI_LA_14/MyTravels/app/assets/stylesheets/users.css.scss */
+#account_info {
+  font-family: Lucida Handwriting;
+  color: white;
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px;
+  border-radius: 10px;
+  text-shadow: -1px -1px 0 #000066, 1px -1px 0 #000066, -1px 1px 0 #000066, 1px 1px 0 #000066;
+}
+
+/* line 57, /Users/sspraggins86/wdi/WDI_LA_14/MyTravels/app/assets/stylesheets/users.css.scss */
+#edit {
+  margin-left: 45%;
+  position: relative;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ 
+
+
+ */
+

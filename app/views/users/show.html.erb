@@ -1,5 +1,5 @@
 
-<ul id="links">
+<ul id="links"><br>
   <li><%= link_to 'New Post', new_post_path %></li>
   <li><%= link_to "My Posts", posts_path(:post), method: :get %></li>
   <li><%= link_to 'Edit My Account', edit_user_path(@user) %></li>
@@ -8,7 +8,7 @@
 
 
 
-<h1 id="your_page"><%= image_tag @user.avatar.url(:thumb) %> Welcome <%= @user.first_name %>!</h1>
+<h1 id="your_page"><p1 id="avatar"><%= image_tag @user.avatar.url(:thumb) %></p1> Welcome <%= @user.first_name %>!</h1>
 
 
 
