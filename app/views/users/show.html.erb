@@ -1,9 +1,14 @@
-<%= link_to 'New Post', new_post_path %> 
-<%= link_to "My Posts", posts_path(:post), method: :get %>
-<%= link_to 'Edit My Account', edit_user_path(@user) %>
-<%= link_to "Sign Out", new_session_path(:user), method: :delete %>
-<%= link_to 'Delete My Account', user_path, method: :delete, data: { confirm: 'Are you sure?' } %><br />
+
+<ul id="links">
+  <li><%= link_to 'New Post', new_post_path %></li>
+  <li><%= link_to "My Posts", posts_path(:post), method: :get %></li>
+  <li><%= link_to 'Edit My Account', edit_user_path(@user) %></li>
+  <li><%= link_to "Sign Out", new_session_path(:user), method: :delete %></li>
+  <li><%= link_to 'Delete My Account', user_path, method: :delete, data: { confirm: 'Are you sure?' } %></li><br />
 
 
-<h1><%= image_tag @user.avatar.url(:thumb) %> Welcome <%= @user.first_name %>!</h1>
+
+<h1 id="your_page"><%= image_tag @user.avatar.url(:thumb) %> Welcome <%= @user.first_name %>!</h1>
+
+
 

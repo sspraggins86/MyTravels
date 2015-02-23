@@ -6,7 +6,7 @@ class User < ActiveRecord::Base
     :thumb => "100x100>" }, 
     :default_url => "/images/:style/missing.png"
 
- validates_attachment_file_name :avatar, :matches => [/png\Z/, /jpe?g\Z/, /gif\Z/]
+ validates_attachment_content_type :avatar, :content_type => [/png\Z/, /jpe?g\Z/, /gif\Z/]
  
     has_secure_password
     has_many :posts

@@ -25,7 +25,8 @@ class UsersController < ApplicationController
   end
 
   def create
-    user = User.create(params.require(:user).permit(:first_name, :last_name, :email, :password, :password_confirmation))
+
+    user = User.create(params.require(:user).permit(:first_name, :last_name, :email, :password, :password_confirmation, :avatar))
       if user.save
           session["user_id"] = user.id.to_s
           redirect_to new_session_path
@@ -37,7 +38,7 @@ class UsersController < ApplicationController
   def update
       @user = User.find(params[:id])
       if @user.update(user_params)
-        redirect_to user_path(@user), notice: "user updated"
+        redirect_to user_path(@user)
       else
         #render 'edit', notice: "Something went wrongs"
       end

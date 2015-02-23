@@ -1,8 +1,8 @@
 
 <%= link_to 'My Home', user_path(@user) %>
 
-<h1>Edit My Account:</h1>
-
+<h1 id="account_info">Edit My Account</h1><br><br>
+<div id="edit">
 <%= form_for(@user) do |f| %>
 
  <%= f.file_field :avatar %>
@@ -29,3 +29,4 @@
     <%= f.submit %>
   </div>
 <% end %> 
+</div>

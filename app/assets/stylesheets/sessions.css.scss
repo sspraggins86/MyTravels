@@ -2,36 +2,53 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+html, body {
+	background-color: #E2FFFF;
+}
+
 #title {
 	font-family: Lucida Handwriting;
 	font-size: 50px;
-	text-align: center;	
 	margin-top: 3%;
+	color: white;
+	text-shadow: -1px -1px 0 #000066,
+    1px -1px 0 #000066,
+    -1px 1px 0 #000066,
+    1px 1px 0 #000066;
+	margin: 20px;
+	border-radius: 10px;
+	background-color: rgba(0,0,0,0.5);
+	border: 2px solid #000066;
 
 }
 
-
-/*@import "bootstrap-sprockets";
-@import "bootstrap";*/
-
+#welcome {
+	text-align: center;
+	font-size: 20px;
+	margin: 15px;
+	color: #000066;
+	border-radius: 10px;
+	
+}
 
 #container {
-	border: 1px solid white;
+	border-radius: 10px;
 	height: 450px;
 	width: 600px;
 	margin: 0 auto;
 	position: relative;
-
 }
 
 #signup {
     float: left;
     margin-top: 15%;
     margin: 5%;
+    color: #000066;
 }
 
 #login {
 	float: right;
 	margin-top: 15%;
 	margin: 5%;
+    color: #000066;
 }

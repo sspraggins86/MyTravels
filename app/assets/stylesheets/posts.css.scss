@@ -1,14 +1,25 @@
-// Place all the styles related to the users controller here.
+// Place all the styles related to the posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
 body {
-	background-color: #E2FFFF;
+	font-family: fantasy;
+	margin: auto;
+	position: relative;
+	position: center;
 }
 
-#your_page {
+
+new_post {
+	margin: auto;
+	position: absolute;
+	position: center;
+}
+
+#my_travels {
 	font-family: Lucida Handwriting;
-    text-align: left;
+    text-align: center;
 	color: white;
 	margin: 20px;
 	background-color: rgba(0,0,0,0.5) ;
@@ -19,36 +30,26 @@ body {
     1px 1px 0 #000066;
 }
 
-#links {
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    
-}
-
-li {
-	display: inline;
-    width: 60px;
-    margin-left: 60px;
-}
-
-#account_info {
-	font-family: Lucida Handwriting;
-	color: white;
-	margin: 20px;
-	background-color: rgba(0,0,0,0.5) ;
-	border-radius: 10px;
-	text-align: center;
-	margin: 20px;
-	border-radius: 10px;
-	text-shadow: -1px -1px 0 #000066,
-    1px -1px 0 #000066,
-    -1px 1px 0 #000066,
-    1px 1px 0 #000066;
-}
-
-#edit {
+#posts {
 	margin-left: 45%;
 	position: relative;
+}
 
+#new {
+	font-family: Lucida Handwriting;
+    text-align: center;
+	color: white;
+	margin: 20px;
+	background-color: rgba(0,0,0,0.5) ;
+	border-radius: 10px;
+	text-shadow: -1px -1px 0 #000066,
+    1px -1px 0 #000066,
+    -1px 1px 0 #000066,
+    1px 1px 0 #000066;
+}
+
+#new_post {
+	margin-left: 45%;
+	margin-right: 55%;
+	position: relative;
 }

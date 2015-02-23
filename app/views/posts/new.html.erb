@@ -1,7 +1,7 @@
-<%= link_to 'My Home', user_path(:id) %>
+<li><%= link_to 'My Home', user_path(:id) %></li>
 
-<h1>Create a new Post!</h1>
-
+<h1 id="new">Create a new Post!</h1><br><br>
+<div id="new_post">
 <%= form_for(@post) do |f| %>
   <div clas="field">
     <%= f.label :title %><br>
@@ -23,3 +23,4 @@
   </div>
 
 <% end %>
+</div>

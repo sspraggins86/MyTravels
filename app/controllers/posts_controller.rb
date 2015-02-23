@@ -19,14 +19,14 @@ def edit
 end
 
 def create
-  @post = Post.create(params.require(:post).permit(:title, :description, :travel_date))
+  post = Post.create(params.require(:post).permit(:avatar, :title, :description, :travel_date))
   redirect_to posts_path
  
 end
 
 def update
   @post = Post.find(params[:id])
-  @post.update(params.require(:post).permit(:title, :description, :travel_date))
+  @post.update(params.require(:post).permit(:avatar, :title, :description, :travel_date))
   redirect_to posts_path
  
 end
