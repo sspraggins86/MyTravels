@@ -1,5 +1,5 @@
 <ul>
-  <li><%= link_to 'My Home', user_path(:id) %></li>
+  <li><%= link_to 'My Home', user_path(current_user) %></li>
   <li><%= link_to 'New Post', new_post_path %></li>
   <li><%= link_to "Sign Out", new_session_path(:user), method: :delete %></li>
 </ul>

@@ -12,4 +12,8 @@ class User < ActiveRecord::Base
     has_many :posts
     has_many :photos
     belongs_to :users
+
+    def to_s
+    	"This person's email is #{self.email}"
+    end
 end
